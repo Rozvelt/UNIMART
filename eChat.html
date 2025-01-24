@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMMUNICATION</title>
+    <link rel="stylesheet" href="CSS/Assign%20form.css">
+    <style>
+        #one{
+            background-color: aqua;
+            color: white;
+            width: 30%;
+            padding-top: 150px;
+        }
+        #one h1{
+            font-weight: bolder;
+            text-align: center;
+            font-size: 50px;
+        }
+        #main{
+            display: flex;
+            width: 100%;
+            box-shadow: 3px 4px 5px black;
+        }
+        #one p{
+            text-align: center;
+            font-size: 20px;
+
+        }
+        #two p{
+            color: black;
+            text-align: left;
+
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="one">
+        <h1>Let's Chat</h1>
+       <p> Whether you have a question,want to stary a project or simply want to connect.</p>
+
+        <p>Feel free to send me a message in the contact form.</p>
+
+
+    </div>
+    <div id="two">
+        <form action="">
+            <legend>Contact</legend>
+            <br><br>
+            <p>Required*</p>
+            <label for="nme"></label>
+            <input type="text" id="nme" required="required" placeholder="Name*">
+            <br><br>
+            <label for="eml"></label>
+            <input type="email" id="eml" required="required" placeholder="Email*">
+            <br><br>
+            <label for="com"></label>
+            <input type="text" id="com" placeholder="Company">
+            <br><br>
+            <label for="pho"></label>
+            <input type="number" id="pho" placeholder="Phone">
+            <br><br>
+            <label for="msg"></label>
+            <textarea name="" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+            <br><br>
+            <button type="submit">SUBMIT</button>
+
+
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
